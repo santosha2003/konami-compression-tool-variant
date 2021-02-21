@@ -84,6 +84,8 @@ The implementation is written in pure C, doesn't have any dependencies other tha
 
 It can be easily built under __Linux__ and __MacOS__ via _Makefile_. Native __Windows__ builds are also possible, but POSIX-like environment is necessary (possibly, MinGW or Cygwin) to get the existing build system working.
 
+* test msys2 mingw64 windows , freebsd gcc8  compile Okumura lzss code from 1992 - it's worka!
+
 To build from the source, just run:
 
 	make
@@ -140,6 +142,32 @@ Compress `uncompressed.bin` to `compressed.bin`:
 	lzkn -c uncompressed.bin compressed.bin
 
 Please note that `-c` is the default mode and may be omitted.
+
+    LZKN1:
+
+    Animaniacs
+    Contra - Hard Corps
+    Lethal Enforcers II - Gun Fighters
+    Sparkster
+
+    LZKN2:
+
+    Animaniacs
+    Castlevania - Bloodlines
+    Contra - Hard Corps
+    Rocket Knight Adventures
+    Sunset Riders
+    Teenage Mutant Ninja Turtles - The Hyperstone Heist
+    Tiny Toon Adventures - Acme All-Stars
+    Tiny Toon Adventures - Buster’s Hidden Treasure
+
+    LZKN3:
+
+    Castlevania - Bloodlines
+    Hyper Dunk - The Playoff Edition
+    Lethal Enforcers
+    Teenage Mutant Ninja Turtles - Tournament Fighters
+    Tiny Toon Adventures - Acme All-Stars
 
 
 # Licensing
